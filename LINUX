@@ -370,6 +370,343 @@ Kubernetes Ki Linux Connection
 
 
 
+                                                     OR
+
+
+
+
+
+1️⃣ Introduction to Linux
+
+Open-source Operating System
+
+Kernel-based architecture
+
+Multi-user & Multi-tasking
+
+CLI-focused environment
+
+Popular Distributions:
+
+Ubuntu
+
+CentOS
+
+Red Hat Enterprise Linux
+
+Debian
+
+2️⃣ Linux Architecture
+Hardware
+   ↓
+Kernel
+   ↓
+Shell
+   ↓
+User Commands
+Kernel Responsibilities:
+
+Process management
+
+Memory management
+
+Device drivers
+
+File system handling
+
+3️⃣ File System Structure
+
+Root Directory: /
+
+Important Directories:
+
+/bin → essential binaries
+
+/boot → boot loader files
+
+/etc → configuration files
+
+/home → user directories
+
+/root → root user home
+
+/var → logs & variable data
+
+/usr → user programs
+
+/tmp → temporary files
+
+/proc → process information
+
+4️⃣ File & Directory Management
+Basic Commands:
+
+pwd → Print working directory
+
+ls → List files
+
+cd → Change directory
+
+mkdir → Create directory
+
+rmdir → Remove empty directory
+
+rm -rf → Remove forcefully
+
+cp → Copy files
+
+mv → Move/Rename files
+
+touch → Create file
+
+cat, less, more → View files
+
+5️⃣ File Permissions & Ownership
+
+Permission format:
+
+-rwxr-xr--
+
+r = Read (4)
+
+w = Write (2)
+
+x = Execute (1)
+
+Commands:
+
+chmod → Change permission
+
+chown → Change owner
+
+chgrp → Change group
+
+6️⃣ User & Group Management
+
+useradd
+
+passwd
+
+usermod
+
+userdel
+
+groupadd
+
+groups
+
+Concepts:
+
+Root user
+
+Sudo access
+
+/etc/passwd file
+
+/etc/shadow file
+
+7️⃣ Process Management
+
+Commands:
+
+ps -ef
+
+top
+
+htop
+
+kill
+
+kill -9
+
+nice
+
+renice
+
+bg, fg
+
+jobs
+
+Concepts:
+
+PID
+
+Foreground vs Background process
+
+Zombie process
+
+Daemon process
+
+8️⃣ Memory & Disk Management
+
+Commands:
+
+free -m
+
+df -h
+
+du -sh
+
+mount
+
+umount
+
+lsblk
+
+fdisk
+
+Concepts:
+
+Swap memory
+
+Disk partitions
+
+Inodes
+
+9️⃣ Networking in Linux
+
+Commands:
+
+ip a
+
+ifconfig
+
+ping
+
+netstat
+
+ss
+
+curl
+
+wget
+
+scp
+
+ssh
+
+Concepts:
+
+Ports
+
+DNS
+
+Firewall
+
+Routing table
+
+🔟 Package Management
+
+Debian-based:
+
+apt update
+
+apt install
+
+apt remove
+
+RHEL-based:
+
+yum install
+
+dnf install
+
+rpm
+
+1️⃣1️⃣ Shell & Bash Scripting
+
+Variables
+
+Condition statements (if, else)
+
+Loops (for, while)
+
+Functions
+
+Shebang (#!/bin/bash)
+
+Input/Output redirection (>, >>, <)
+
+Pipes (|)
+
+1️⃣2️⃣ System Services
+
+Commands:
+
+systemctl start
+
+systemctl stop
+
+systemctl restart
+
+systemctl status
+
+service
+
+Concepts:
+
+systemd
+
+Daemons
+
+Boot targets
+
+1️⃣3️⃣ Log Management
+
+Important Log Locations:
+
+/var/log/syslog
+
+/var/log/messages
+
+/var/log/auth.log
+
+Commands:
+
+tail -f
+
+journalctl
+
+1️⃣4️⃣ Environment Variables
+
+echo $PATH
+
+export
+
+.bashrc
+
+.profile
+
+1️⃣5️⃣ Security Concepts
+
+SSH key authentication
+
+Firewall (ufw, firewalld)
+
+SELinux
+
+File permissions
+
+Sudoers file
+
+1️⃣6️⃣ Important DevOps Concepts in Linux
+
+Cron jobs (crontab -e)
+
+Log rotation
+
+Process monitoring
+
+Disk cleanup
+
+Service troubleshooting
+
+Port troubleshooting
+
+Server hardening basics
+
+
+
 
 
 
