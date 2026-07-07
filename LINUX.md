@@ -298,17 +298,24 @@ Change permission
 chmod 755 file.sh
 
 Change owner
+
 chown user:group file.txt
+
 👉 Kubernetes pods lo volume permission issue vastey idi use avuthundi.
+
+
 5️⃣ User Management
 
 useradd devuser
+
 passwd devuser
+
 usermod -aG sudo devuser
 
 DevOps lo servers create chesinappudu required.
 
 6️⃣ Process Management (K8s Debugging Ki 🔥)
+
 
 | Command                  | Use            |
 | ------------------------ | -------------- |
@@ -320,7 +327,10 @@ DevOps lo servers create chesinappudu required.
 
 
 Pod crash issue troubleshoot ki use.
+
+
 7️⃣ Disk & Memory
+
 df -h      # disk usage
 du -sh *   # folder size
 free -m    # memory
@@ -343,7 +353,9 @@ Kubernetes service communication test cheyadaniki.
 9️⃣ Package Management
 
 Ubuntu:
+
 apt update
+
 apt install nginx
 
 CentOS:
@@ -351,7 +363,9 @@ CentOS:
 yum install httpd
 
 🔟 Shell Scripting Basics
+
 #!/bin/bash
+
 echo "Hello DevOps"
 
 Automation ki must.
