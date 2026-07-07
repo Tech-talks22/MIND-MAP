@@ -5,7 +5,8 @@
   ----------------------------------------------------------------
 
   
-  |              |              |              |             |             |
+  |     
+  |              |              |             |             |
 Basics       File System      Users &       Process       Networking      Storage
                             Permissions    Management
 
