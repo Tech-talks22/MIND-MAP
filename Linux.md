@@ -1,3 +1,6 @@
+# 🐧 Linux Mind Map (DevOps Interview & Learning)
+
+```text
                                  🐧 LINUX
                                     │
  ┌──────────────────────────────────┼──────────────────────────────────┐
@@ -98,7 +101,7 @@
                ├── Inodes
                ├── Soft Link vs Hard Link
                ├── grep vs awk vs sed
-               ├── chmod Numeric Values
+               ├── chmod (755, 644, etc.)
                ├── Top vs htop
                ├── Cron vs Systemd Timer
                ├── TCP vs UDP
@@ -106,4 +109,77 @@
                ├── Zombie Process
                ├── Daemon Process
                ├── Load Average
-               └── Troubleshooting High CPU/Memory/Disk
+               └── High CPU / Memory / Disk Troubleshooting
+```
+
+## 📚 Learning Order
+
+1. Linux Basics
+2. File System
+3. File & Directory Commands
+4. Text Processing
+5. Users & Permissions
+6. Package Management
+7. Process Management
+8. Disk Management
+9. Networking
+10. Services (`systemd`)
+11. Logs
+12. Scheduling (Cron)
+13. SSH & Security
+14. Shell Scripting
+15. Environment Variables
+16. DevOps Tools on Linux
+
+---
+
+## 🧠 Memory Trick
+
+Remember this sequence:
+
+**B → F → C → U → P → D → N → S → L → C → SSH → Shell → DevOps**
+
+- **B** = Basics
+- **F** = File System
+- **C** = Commands
+- **U** = Users & Permissions
+- **P** = Processes
+- **D** = Disk
+- **N** = Networking
+- **S** = Services
+- **L** = Logs
+- **C** = Cron
+- **SSH** = Remote Access & Security
+- **Shell** = Shell Scripting
+- **DevOps** = Git, Docker, Kubernetes, Jenkins, Terraform, Ansible, AWS CLI
+
+---
+
+## 🎯 Most Important Interview Topics
+
+- Linux Boot Process
+- File System Hierarchy (FHS)
+- File Permissions (`chmod`, `chown`, `umask`)
+- Soft Link vs Hard Link
+- Inodes
+- Process Lifecycle
+- Zombie vs Orphan Process
+- Daemon Process
+- grep vs sed vs awk
+- `find` vs `locate`
+- `cp` vs `mv`
+- `top` vs `htop`
+- `ps` command
+- `kill` vs `kill -9`
+- `systemctl`
+- `journalctl`
+- Cron Jobs
+- SSH Key Authentication
+- Disk Usage (`df`, `du`, `lsblk`)
+- LVM
+- Swap Memory
+- Networking Commands
+- TCP vs UDP
+- DNS Troubleshooting
+- Bash Scripting Basics
+- Linux Troubleshooting Scenarios
