@@ -1,6 +1,7 @@
                            LINUX
                               |
   ----------------------------------------------------------------
+  
   |            |            |            |           |            |
 Basics     File System   Users &     Process     Networking    Storage
                         Permissions  Management
@@ -25,6 +26,7 @@ CLI vs GUI
 Important directories: /etc, /var, /home, /bin, /usr
 
 2️⃣ File System & Commands
+
 File Handling
 
 ls, pwd, cd
@@ -52,6 +54,7 @@ grep
 locate
 
 3️⃣ Users & Permissions
+
 User Management
 
 useradd
@@ -81,6 +84,7 @@ chgrp
 Concept:
 
 Owner | Group | Others
+
 4️⃣ Process Management
 
 ps
@@ -214,7 +218,9 @@ CPU high issue analysis
 
 Interview Quick Visual Summary
 
+
 Linux
+
  ├── File System
  ├── Users & Permissions
  ├── Process Mgmt
