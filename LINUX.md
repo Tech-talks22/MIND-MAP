@@ -222,12 +222,19 @@ Interview Quick Visual Summary
 Linux
 
  ├── File System
+ 
  ├── Users & Permissions
+ 
  ├── Process Mgmt
+ 
  ├── Networking
+ 
  ├── Storage
+ 
  ├── Package Mgmt
+ 
  ├── Logs
+ 
  └── Shell Scripting
 
 
