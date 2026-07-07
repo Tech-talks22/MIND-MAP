@@ -1,10 +1,13 @@
                            LINUX
+                           
                               |
+                              
   ----------------------------------------------------------------
+
   
-  |            |            |            |           |            |
-Basics     File System   Users &     Process     Networking    Storage
-                        Permissions  Management
+  |              |              |              |             |             |
+Basics       File System      Users &       Process       Networking      Storage
+                            Permissions    Management
 
 
 1️⃣ Linux Basics
