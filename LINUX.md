@@ -459,7 +459,9 @@ mv → Move/Rename files
 
 touch → Create file
 
-cat, less, more → View files
+cat, less, more → View files  
+
+
 
 5️⃣ File Permissions & Ownership
 
